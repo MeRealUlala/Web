@@ -1,0 +1,91 @@
+<HTML>
+<BODY>
+<head>
+<title>
+Лабораторная работа 5
+
+</title>
+<link rel="stylesheet" type="text/css" href="L411.css" />
+<script type="text/javascript" src="check.js"></script>
+</head>
+<FORM METHOD="POST" onsubmit="return false;" >
+<table>
+<tr>
+   <td colspan=2> <caption> <b>Форма заказа билетов<b/> </caption></td>
+   
+   
+  </tr> 
+
+
+<tr>
+   <td> <h3>Фамилия</h3></td>
+   <td><INPUT NAME="surname" class="big"></td>
+  </tr>
+
+<tr>
+   <td><h3>Имя</h3></td>
+   <td><INPUT NAME="name" class="big"></td>
+  </tr>
+<tr>
+   <td><h3>Отчество</h3></td>
+   <td><INPUT NAME="otch" class="big"></td>
+  </tr>
+
+<tr>
+   <td><h3> Пол</h3></td>
+   <td>Мужчина <INPUT NAME="gender" TYPE=RADIO VALUE="мужской">
+ Женщина <INPUT NAME="gender" TYPE=RADIO VALUE="женский"></td>
+  </tr>
+
+ 
+  <tr>
+   <td id="style2"><P> Дата рождения</td> 
+<td><input type="date"></td>
+  </tr> 
+<tr>
+
+   <td><P> Гражданство   </td> 
+<td> РФ <INPUT NAME="rf" TYPE="checkbox" VALUE="pr">
+Украина <INPUT NAME="ukr" TYPE="checkbox" VALUE="pr">
+Другое <INPUT NAME="el" TYPE="checkbox" VALUE="pr">
+
+ 
+<tr>
+   <td><P>  <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D1%8B%D0%B5_%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8
+"> Ж/д компания </td> 
+<td>
+
+<select>
+  <option>ООО РЖД</option>
+  <option>ЗАО ТК Гранд Сервис Экспресс</option>
+  <option>АО Транссервис</option>
+ 
+</select>
+  </td>
+  </tr>
+
+ 
+<tr>
+   <td><h3> Электронный адрес <h3>  </td> 
+<td> <INPUT NAME="email">  </td>
+  </tr>  
+<tr>
+   <td><h4> Город отправления</h4></td> 
+<td><INPUT NAME="goro" class="big"> </td>
+  </tr>
+<tr>
+   <td><h4> Город прибытия</h4></td> 
+<td><INPUT NAME="gorop" class="big"> </td>
+  </tr>
+
+<tr>
+  
+<td colspan=2 class="centr">  <button onclick="check(); return false">Готово</button> &emsp;<INPUT TYPE=RESET></td>
+   
+  </tr> 
+</table>
+ <a href="index.html"> На главную </a>
+
+</FORM>
+</BODY>
+</HTML>

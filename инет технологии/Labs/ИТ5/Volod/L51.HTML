@@ -1,0 +1,40 @@
+
+<html>
+ <meta charset="windows-1251"> 
+<head><title>Лабораторная работа 5</title> 
+<script> 
+function f1() { 
+// Получаем значение n 
+var n=document.getElementById("n").value 
+var m=0
+// Формируем шапку таблицы 
+str="<tr><th>Индекс числа</th><th>Число, делящееся на 5</th></tr>" 
+
+for (i=0; i<=n; i++) { 
+// вычисление степени 
+//x=i;
+if (i % 5 == 0) {
+m=m+1
+str=str+"<tr><td>"+m+"</td><td>"+i+"</td></tr>" 
+}
+// вывод строки со значениями 
+//alert ("1")
+
+} 
+
+// Вывод таблицы внутри тегa с идентификатором tbl 
+document.getElementById("tbl").innerHTML=str 
+} 
+</script> 
+</head> 
+<body> 
+<h2>Введите данные</h2> 
+<form name=freg> 
+n: <input id="n" size=6><br><br> 
+<input type="button" value="Вычислить" 
+onclick="f1();"> 
+</form> 
+<table id="tbl" border="1"> 
+</table> 
+</body> 
+</html>

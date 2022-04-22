@@ -1,0 +1,93 @@
+<HTML>
+<BODY>
+<head>
+<title>
+Лабораторная работа 3
+</title>
+</head>
+<FORM METHOD="POST" ACTION=Vash_otvet_prinyat.html>
+<table align=center border=0>
+<tr>
+   <td  align=center colspan=2> <caption> <b>Заказ Ж/Д билетов<b/> </caption></td>
+   
+   
+  </tr> 
+
+
+<tr>
+   <td align=left>Фамилия</td>
+   <td><INPUT NAME="log" SIZE="60"></td>
+  </tr>
+
+<tr>
+   <td align=left>Имя</td>
+   <td><INPUT NAME="name" SIZE="60"></td>
+  </tr>
+<tr>
+   <td align=left>Отчество</td>
+   <td><INPUT NAME="otch" SIZE="60"></td>
+  </tr>
+
+<tr>
+   <td align=left>Пол</td>
+   <td>Мужчина <INPUT NAME="gender" TYPE=RADIO VALUE="мужской">
+ Женщина <INPUT NAME="gender" TYPE=RADIO VALUE="женский"></td>
+  </tr>
+
+ 
+  <tr>
+   <td><P> Дата рождения</td> 
+<td><input type="date"></td>
+  </tr> 
+<tr>
+
+   <td><P> Гражданство   </td> 
+<td> РФ <INPUT NAME="da" TYPE="checkbox" VALUE="pr">
+Украина <INPUT NAME="net" TYPE="checkbox" VALUE="pr">
+Другое <INPUT NAME="net" TYPE="checkbox" VALUE="pr">
+
+ 
+<tr>
+   <td><P>  Ж/д компания </td> 
+<td>
+
+<select>
+  <option>ООО РЖД</option>
+  <option>ЗАО ТК Гранд Сервис Экспресс</option>
+  <option>АО Транссервис</option>
+ 
+</select>
+  </td>
+  </tr>
+
+ 
+<tr>
+   <td><P> Электронный адрес:  </td> 
+<td> <INPUT NAME="email" SIZE="42">  </td>
+  </tr>  
+<tr>
+   <td><P> Город отправления</td> 
+<td><INPUT NAME="goro" SIZE="60"> </td>
+  </tr>
+<tr>
+   <td><P> Город прибытия</td> 
+<td><INPUT NAME="gorop" SIZE="60"> </td>
+  </tr>
+    <tr>
+        <td>  Дата отправки </td>
+        <td><input type="date" name="calendar" value="2020-09-11"
+                   max="2025-06-04" min="2020-09-11"> <input type="time" name="cron" value="03:15" min="00:01" max="06:00"></td>
+
+
+    </tr>
+<tr>
+  
+<td  align=center colspan=2>  <INPUT TYPE=SUBMIT>&nbsp;&nbsp;<INPUT TYPE=RESET></td>
+   
+   
+  </tr> 
+
+
+</FORM>
+</BODY>
+</HTML>
